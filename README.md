@@ -3,7 +3,7 @@
 Cette nouvelle fonctionnalité permet d'écrire du texte en bleu. Il est nécessaire d'utiliser la classe CSS '.bleu' dans vos éléments HTML, pour le réaliser.
 
 **Exemple :**
-<div style="color : blue;">Ceci est un text en bleu.</div>
+<span class="bleu">Ceci est un text en bleu.</span>
 
 ## Image
 
