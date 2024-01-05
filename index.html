@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +11,12 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 	<!-- Chemin vers Feuille de style -->
-	<link rel="stylesheet" href="./replace_style.css">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
-	<div class="container-fluid">
+	<div class="container-fluid" class="blue">
 		<div id='container' class="row">
 			<!-- Première ligne -->
 			<div id='model-case' class="col-md-4 col-sm-12">replace_name</div>
@@ -82,9 +82,9 @@
 			nouvelleDiv.textContent = etudiant;
 
 			// Si c'est mon nom
-			if(etudiant == "NOM Prénom"){
+			if(etudiant == "DOUCET CHARDRON Maïwenn"){
 				// Je modifie ma case. Exemple:
-				nouvelleDiv.classList.add('blue');
+				nouvelleDiv.classList.add('red');
 			}
 			else{
 				// Génère une couleur de fond aléatoire
@@ -103,5 +103,4 @@
 		divExistante.remove();
 	</script>
 </body>
-
 </html>
